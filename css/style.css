@@ -78,7 +78,7 @@ body {
 /* Content Text */
 #pContent h2 {
 	font-family: "Raleway";
-	color: #FFFFFF;
+	color: rgb(226, 226, 226);
 	font-size: 1.1em;
 	letter-spacing: 1px;
 	line-height: 1.3;
