@@ -27,7 +27,7 @@
 	font-family: "Cormorant Unicase";
 	font-size: 3em;
 	padding-top: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	margin: 0 auto;
 	line-height: 0.8;
 	letter-spacing: 2px;
@@ -44,6 +44,19 @@
 	padding-top: 0px;
 	margin: 0 auto;
 	color: #FFF;
+}
+
+#pHeader h3 {
+	display: inline-block; 
+	padding-right: 0px;
+	padding-bottom: 10px;
+	word-spacing: 0px;
+	font-family: "Raleway";
+	font-size: 1.4em;
+	font-style:italic;
+	padding-top: 0px;
+	margin: 0 auto;
+	color: rgb(165, 165, 165);
 }
 
 /* Body */
