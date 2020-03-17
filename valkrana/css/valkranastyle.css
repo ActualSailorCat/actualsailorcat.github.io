@@ -64,6 +64,54 @@ body {
 	color:#dd872a;
 }
 
+/* Collapse */
+input[type='checkbox'] {
+	display: none;
+}
+
+.lbl-toggle {
+	display: block;
+	background-color: #181818;
+	cursor: pointer;
+	padding-top: 20px;
+	width: 100%;
+	border-top: 1px dotted #dd872a;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+  color: #7C5A0B;
+}
+
+.lbl-toggle::before {
+	content: url(skull.png);
+	vertical-align: middle;
+	margin-right: .7rem;
+	float: left;
+	transform: translateY(-2px);
+	transition: transform .2s ease-out;
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 100%;
+}
+
 /* Large, Colored Text */
 #pContent h1 {
 	font-family: "Cormorant Unicase";
