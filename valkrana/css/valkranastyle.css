@@ -8,7 +8,7 @@
 
 #pHeader {
 	width: 100%;
-	background-color: #322721;
+	background-color: #291f1b;
 	margin: 0 auto;
 	/*background-repeat: repeat;
 	background: url('../img/pattern.png');*/
@@ -52,7 +52,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #322721;
+  background-color: #291f1b;
 }
 
 #container {
@@ -71,7 +71,7 @@ input[type='checkbox'] {
 
 .lbl-toggle {
 	display: block;
-	background-color: #322721;
+	background-color: #291f1b;
 	cursor: pointer;
 	padding-top: 20px;
 	width: 100%;
