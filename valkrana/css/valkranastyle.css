@@ -8,7 +8,7 @@
 
 #pHeader {
 	width: 100%;
-	background-color: #291f1b;
+	background-color: #1d1d1d;
 	margin: 0 auto;
 	/*background-repeat: repeat;
 	background: url('../img/pattern.png');*/
@@ -52,7 +52,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #291f1b;
+  background-color: #181818;
 }
 
 #container {
@@ -71,7 +71,7 @@ input[type='checkbox'] {
 
 .lbl-toggle {
 	display: block;
-	background-color: #291f1b;
+	background-color: #181818;
 	cursor: pointer;
 	padding-top: 20px;
 	width: 100%;
@@ -86,7 +86,7 @@ input[type='checkbox'] {
 }
 
 .lbl-toggle:hover {
-  color: #7C5A0B;
+  color: #181818;
 }
 
 .lbl-toggle::before {
@@ -150,7 +150,7 @@ input[type='checkbox'] {
 
 /* Blockquote */
 blockquote {
-	background: #1e1714;
+	background: #1d1d1d;
 	border-left: 10px solid #dd872a;
 	margin: 1.5em 10px;
 	font-size: 1.0em;
